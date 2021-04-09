@@ -12,6 +12,8 @@ if(process.argv.length !== 3){
 const writeFrom = async () => {
   try{
     const res = await axios.get(URL)
+    console.log(`headers: ${URL}`)
+    console.log(res.headers)
     await fsPromises.writeFile('index.html', res.data)
     console.log(`ok`)
     const stats = await fsPromises.stat('index.html')
