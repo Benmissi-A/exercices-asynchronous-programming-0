@@ -1,0 +1,11 @@
+{
+  "name": "exercices-asynchronous-programming-0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Benmissi-A/exercices-asynchronous-programming-0.git",
+  "author": "Benmissi-A <aminebenmissi@hotmail.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
