@@ -1,4 +1,7 @@
 const fsPromises = require('fs/promises')
+// il y avait deux to uppercase quanfd j'ai fait l'exo
+
+
 
 const read = async () => {
   try {
